@@ -98,7 +98,7 @@ Run: 02_DPO.ipynb
 3. 🤖 Inference
 
 ```bash
-Run: Inference.ipynb
+Run: Inference.py
 ```
 Test the final model with custom prompts.
 
