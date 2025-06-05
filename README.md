@@ -117,7 +117,7 @@ After training, the final model:
 ## 💡 Use Case
 This project is ideal for:
 
-- Creating lightweight RLHF-style LLMs without PPO
+- Creating lightweight RLHF-style LLMs without PPO (Proximal Policy Optimization)
 - Instruction-following LLMs tuned for preference-aligned outputs
 - Prototyping custom assistants, chatbots, or tutor bots using small models
 
