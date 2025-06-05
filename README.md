@@ -68,8 +68,10 @@ After the full pipeline, your final model can:
 ---
 
 ## 📦 Dataset
-- Used for DPO: yitingxie/rlhf-reward-datasets
-- Format: Each entry contains a prompt, a chosen response (preferred), and a rejected response.
+
+- **Used for SFT**: Custom dataset from [`NvidiaDocumentationQandApairs.csv`](https://www.kaggle.com/datasets/gondimalladeepesh/nvidia-documentation-question-and-answer-pairs), consisting of high-quality Q&A pairs extracted from NVIDIA technical documentation.
+- **Used for DPO**: [`yitingxie/rlhf-reward-datasets`](https://huggingface.co/datasets/yitingxie/rlhf-reward-datasets)  
+  Format: Each entry contains a prompt, a chosen response (preferred), and a rejected response.
 
 ---
 
