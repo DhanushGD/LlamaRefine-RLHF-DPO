@@ -20,7 +20,7 @@ This approach directly aligns model behavior with **human preferences** and is h
 After the full pipeline, your final model can:
 
 - 🧠 Retain **TinyLlama’s original knowledge** (pretraining)
-- 🎓 Follow instructions and tasks with **SFT fine-tuning**
+- 🎓 Follow instructions and tasks with **SFT**
 - 📊 Prefer better responses with **DPO preference learning**
 
 ✅ You get a **single unified model**, merged and ready for inference, without needing LoRA adapters during runtime.
