@@ -1,4 +1,4 @@
-# 🚀 LlamaRefine - Refining TinyLlama with Supervised Fine-Tuning and Human Preferences (DPO)
+# 🚀 LlamaRefine: Aligning TinyLlama via Supervised Fine-Tuning and Direct Preference Optimization (RLHF)
 
 This repository contains a complete **notebook-based pipeline** for fine-tuning the [TinyLlama](https://huggingface.co/TinyLlama) language model using **Direct Preference Optimization (DPO)** and **Supervised Fine-Tuning (SFT)** with **LoRA adapters**. It leverages **Unsloth** and **TRL** for efficient and scalable training on low-resource hardware.
 
