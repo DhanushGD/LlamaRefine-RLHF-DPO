@@ -61,7 +61,7 @@ After the full pipeline, your final model can:
 .
 ├── 01_SFT.ipynb            # SFT with LoRA
 ├── 02_DPO.ipynb            # DPO training + merging adapters
-├── 03_Inference.ipynb      # Inference from final model
+├── 03_Inference.py         # Streamlit-based interactive inference app
 └── README.md               # This file
 ```
 
@@ -100,7 +100,7 @@ Run: 02_DPO.ipynb
 3. 🤖 Inference
 
 ```bash
-Run: Inference.py
+Run: streamlit run Inference.py
 ```
 Test the final model with custom prompts.
 
